@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Auth.c" />
+    <ClCompile Include="Game.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auth.h" />
