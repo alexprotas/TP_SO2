@@ -19,15 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AuthEntry.c" />
+    <ClCompile Include="Auth.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AuthEntry.h" />
+    <ClInclude Include="Auth.h" />
     <ClInclude Include="Bomb.h" />
     <ClInclude Include="Bullets.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="Coords.h" />
     <ClInclude Include="Defender.h" />
     <ClInclude Include="Invader.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Powerup.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
