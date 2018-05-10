@@ -1,4 +1,5 @@
 #pragma once
+
 #include <Windows.h>
 #include "Bullets.h"
 #include "Bomb.h"
@@ -11,6 +12,7 @@ typedef struct _game {
 	int MaxFieldX;
 	int MaxFieldY;
 	int HumanCount;
+	int MaxHumanCount;
 	int MaxEnemiesOnScreen;
 	Invader* EnemiesOnScreen;
 	Player* Players;
@@ -81,4 +83,8 @@ typedef struct {
 	Game* gameToHandle;
 	int TerminationFlag;
 }PowerupParameters;
+
 char* createGameString (Game* G);
+void addPlayerToGame (char* playerName, Game* G);
+Game* createNewGame ();
+

@@ -23,3 +23,6 @@ BOOL isUserEntryLogged (AuthEntry* user, AuthDB* database);							  //	Not imple
 AuthEntry createNewEntry (char* username, char* password);							  //	Not implemented
 BOOL addUserToDB (AuthEntry* user, AuthDB* database);								  //	Not implemented
 BOOL createUserInDB (char* username, char* password, AuthDB* database);				  //	Not implemented
+AuthDB* createNewDB ();
+AuthDB* LoadDBFromFile (TCHAR filepath);
+void closeDB (AuthDB* ADB);
